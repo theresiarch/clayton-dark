@@ -92,10 +92,11 @@ h3 {
 	padding-bottom: 6px;
 	margin-bottom: 0px;
 }
+.cover_seperator { opacity: 0.05; }
 h4 { }
 p { margin: 10px 5px; }
 li { margin: 5px 15px; }
-input { padding: 2px 3px; }
+input { padding: 2px 3px; ;}
 .nobullet li { margin: 5px; }
 input[type='search'], input[type='text'], input[type='url'], input[type='password'], input[type='email'], textarea {
 	padding: 6px 6px 6px 7px;
@@ -2973,6 +2974,55 @@ strong.mature + strong + br + a { margin-left: 5px; }
 .pager a:nth-of-type(10) { color: #85617d }
 .pager a:nth-of-type(11) { color: #6b5974 }
 .pager a:nth-of-type(12) { color: #545069 }
+
+/*** A few hidden things ***/
+
+#suggestion_info table {
+	border: 1px solid #333;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+	margin: 20px 0 10px 0;
+}
+#suggestion_info table tr { border-bottom: 1px solid #272727; }
+#suggestion_info table tr:nth-of-type(1) { display: none; }
+#suggestion_info table tr:nth-of-type(2) { border-bottom: 1px solid #222; }
+#suggestion_info table tr:nth-of-type(2) td { cursor: default !important; }
+#suggestion_info table td { padding: 8px 10px; }
+
+#suggestion_info tr:not(.colhead) td:nth-of-type(1) a:first-of-type { display: none; }
+#suggestion_info tr:not(.colhead) td:nth-of-type(1) a { padding: 0; }
+#suggestion_info tr:not(.colhead) td:nth-of-type(1) {
+	vertical-align: top;
+}
+
+#suggestion_info td:nth-of-type(2) {
+	text-align: center;
+	vertical-align: top;
+}
+#suggestion_info td:nth-of-type(3) {
+	vertical-align: top;
+}
+#suggestion_info tr:not(.colhead) td:nth-of-type(3) {
+	color: #555;
+	font-style: italic;
+}
+
+#suggestion_info tr:not(.colhead) td:nth-of-type(4) {
+	text-align: justify;
+	vertical-align: top;
+}
+#suggestion_info tr:not(.colhead):nth-of-type(odd) td {
+	background: rgba(255, 255, 255, .03) !important;
+}
+#suggestion_main tr:not(.colhead) td {
+	border: 1px solid rgb(208, 122, 98, .4);
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, .3);
+	border-radius: 40px;
+	padding: 8px 15px;
+	color: rgb(255, 188, 165, .4);
+	display: inline-block;
+	margin: 15px 15px 0 15px;
+}
+
 
 /*** A couple userscripts ***/
 .gazelle_snatched, .gazelle_seeding { color: #c29128 !important; font-weight: normal; }
