@@ -1088,7 +1088,6 @@ form#poll input { float: none !important; }
 }
 
 /* forum post bar links */
-#forums .colhead_dark { cursor: pointer; }
 .forum_post .colhead_dark a { color: #d7b663  }
 .forum_post .colhead_dark strong a { color: #fff; }
 .forum_post .colhead_dark td div:last-of-type > a:first-of-type {	color: #ca7474; }
@@ -1171,7 +1170,7 @@ td.label {
 	width: 200px;
 	font-weight: normal;
 }
-.forum_post textarea[name="body"] { width: 98% !important; display: block; resize: vertical; }
+.forum_post textarea[name="body"], #user textarea { width: 98% !important; display: block; resize: vertical; }
 .forum_post .colhead_dark input[type="button"] { margin-top: 3px; margin-right: 4px; }
 
 /*** alternating rows ***/
@@ -2319,8 +2318,8 @@ position: relative;
 .torrent_table td.cats_col, #collage #discog_table td:nth-of-type(2) { padding: 0 !important; width: 0 !important; }
 .torrent_table td.cats_col *, #collage #discog_table td:nth-of-type(2) { display: none; }
 .torrent_table .torrentdetails {
-	border: 1px solid #333;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	border: 1px solid #1a1a1a;
+	box-shadow: 0 0px 4px rgba(0, 0, 0, .4);
 }
 .torrent_table .torrentdetails blockquote:first-child { background: rgba(255, 255, 255, .05); padding: 10px !important; border: 0; padding: 0;}
 .reportinfo_table { width: 90% !important; }
@@ -2647,7 +2646,7 @@ table.staff tr:nth-of-type(even) td,
 #upload #dnulist tr:nth-of-type(even) td,
 #upload_table tr:nth-of-type(even),
 #log_table tr:nth-of-type(even),
-.torrent_table:not(#discog_table):not(#torrent_table):not(.release_table) tr:nth-of-type(even)
+.torrent_table:not(#discog_table):not(#torrent_table):not(.release_table) > tbody > tr:nth-of-type(even)
 {
   background: rgba(255, 255, 255, .03);
 }
