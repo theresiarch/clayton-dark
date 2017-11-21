@@ -1418,7 +1418,6 @@ h3 { color: #d7b663; } /* accent 2: cc9033 */
   box-sizing:border-box;
 	max-height: 1500px;
 	overflow: auto;
-	display: flex;
 	border-radius: 0px;
 }
 .torrentdetails pre {
