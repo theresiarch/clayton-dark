@@ -2366,7 +2366,7 @@ position: relative;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
 }
 
-.group { position: relative; }
+.group td { position: relative; }
 .group_info { position: relative; }
 #torrent_table .group_info { position: unset; }
 span.add_bookmark, span.remove_bookmark {
