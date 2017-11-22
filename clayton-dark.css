@@ -875,7 +875,7 @@ input.hidden {
 
 /* Layout (Any page) */
 
-.thin:first-of-type {
+.thin {
 	width: 95%;
 	margin: 0px auto;
 }
