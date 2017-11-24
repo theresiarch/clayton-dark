@@ -2225,9 +2225,10 @@ ul.poll li.graph {
 	border-collapse: collapse;
 	width: 100%;
 }
-.torrent_table a { }
-.torrent_table a:hover {  }
 .group_info a, .discog strong a, .discog span a { color: #e3cb8e; }
+.discog strong a:nth-of-type(2) { color: rgb(255, 110, 91, .25); padding-bottom: 3px; display: inline-block; text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+	border-radius: 3px; padding: 0px 2px 0px 2px; font-size: .7em; }
+.discog strong a:nth-of-type(2)::after { content: ' DB entry' }
 .torrent_table .group_torrent > td > span a:nth-of-type(1) { color: #d5a95b; text-shadow: 1px 1px 1px rgba(0, 0, 0, .9);  }
 
 .torrent_table span a:nth-of-type(2), .torrent_links_block a:nth-of-type(1),
