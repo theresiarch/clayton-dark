@@ -1138,7 +1138,7 @@ form#poll input { float: none !important; }
 	background: transparent; /* #e2dee8; */
 	font-family: "Terminal Dosis";
 	font-size: 1.2em;
-	color: #cc9033; /* was #222 */
+	color: #be8b5d; /* was #cc9033 */
 	font-weight: normal;
 	cursor: unset;
 	text-transform: unset;
@@ -1332,7 +1332,7 @@ ul.collage_images li a span {
 	border-bottom: 0px solid #1a1a1a;
 }
 
-h3 { color: #d7b663; } /* accent 2: cc9033 */
+h3 { color: #d3c297; } /* accent 2: cc9033 */
 
 
 .forum_index .colhead td:nth-of-type(3) { text-align: right;  padding-right: 10px; }
